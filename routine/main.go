@@ -26,7 +26,7 @@ func main() {
 	ipc := channel.Make()
 
 	s2ns := func(s int) time.Duration {
-		return time.Duration(s * 1000000000)
+		return time.Duration(s * 2000000000)
 	}
 
 	go func() {
